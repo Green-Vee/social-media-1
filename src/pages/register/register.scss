@@ -1,0 +1,101 @@
+.register {
+    height: 100vh;
+    display: flex;
+
+    background-color: rgb(17, 5, 41);
+    justify-content: center;
+    align-items: center;
+    
+
+    .card {
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        min-height: 500px;
+        width: 50%;
+        overflow: hidden;
+
+        .left {
+            flex: 1;
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url('../../assets/social.jpg') center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            color: #fff;
+
+            h1 {
+                font-size: 60px;
+                line-height: 70px;
+            }
+
+            p {}
+
+            span {
+                font-size: 14px;
+            }
+
+            button {
+                width: 50%;
+                align-self: center;
+                padding: 10px;
+                background-color: white;
+                color: rebeccapurple;
+                border: none;
+                border-radius: 4px;
+                font-size: 17px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            // border-radius: 10px;
+
+            h1 {
+                text-align: center;
+                color: #555;
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+            form {
+                // margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input {
+                    border: none;
+                    outline: none;
+                    padding: 10px 6px;
+                    border-bottom: 1px solid lightgray;
+                    font-size: 18px;
+                }
+
+                button {
+                    width: 70%;
+                    padding: 10px;
+                    border: none;
+                    background-color: #25014b;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 17px;
+                    border-radius: 4px;
+                    align-self: center;
+                    cursor: pointer;
+
+
+                }
+            }
+        }
+    }
+}

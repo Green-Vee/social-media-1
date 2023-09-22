@@ -1,0 +1,24 @@
+@import "../../style.scss";
+
+.home {
+    @include themify($themes) {
+        background-color: themed("bgSoft");
+
+        color: themed("textColor");
+        padding: 20px 70px;
+        // top: 70px;
+        height: 100vh;
+        overflow: scroll;
+
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+
+
+
+
+
+    }
+}
